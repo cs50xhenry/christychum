@@ -7,10 +7,13 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <audio autoplay>
-    <source src="/assets/music/tdk.mp3" type="audio/mp3">
-  </audio>
-  
+
+ <center>
+    <audio id="player" src="/assets/music/tdk.mp3"></audio>
+    <div>
+        <button id="ilhcbutton" onclick="document.getElementById('player').play()">click me first</button>
+    </div>
+
   <div id="headlinecontainer">
     <div id="shine">I knew you'd be my <br> Beautiful Big Booty Valentine💞</div>
   </div>
@@ -24,7 +27,8 @@
     <img src="./assets/images/5.png" alt="5">
     <img src="./assets/images/6.png" alt="6">
   </div>
-
+ 
+  </center>
 </body>
 
 </html>
